@@ -22,6 +22,10 @@ ul {
   background-color: white;
 }
 
+ul.nav {
+  margin-bottom: -8px;
+}
+
 li {
   float: right;
 }
@@ -49,7 +53,39 @@ li a:hover:not(.active) {
   background-color: teal;
 }
 
-nav {
+nav, .container {
   width: 960px;
   margin: auto;
+}
+
+.container {
+  height: 600px;
+  background-color: grey;
+  padding: 10px;
+}
+
+img {
+  float: left;
+  width: 33%;
+}
+
+#bio {
+  float: right;
+  width: 66%;
+}
+
+.footer {
+  font-family: Arial, Helvetica, sans-serif;
+  left: 0;
+  bottom: 0;
+  width: 960px;
+  background-color: #ebebeb;
+  color: white;
+  text-align: center;
+  margin: auto;
+  height: 85px;
+}
+
+.footer h1 {
+  padding-top: 25px
 }
