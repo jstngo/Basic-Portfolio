@@ -1,34 +1,51 @@
 <!DOCTYPE html>
-<html>
-<html lang="eng-us">
+<html lang="en">
 
 <head>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body>
+<body background="assets/images/connectwork.png">
     <header>
-        <h1>Justin Goyena</h1>
-    <ul>
-        <id class="About" href="About.html">About</id>
-        <id class="Portfolio" href="Portfolio.html">Portfolio</id>
-        <id class="Contact" href="Contact.html">Contact</id>
-    </ul>
+        <nav>
+            <ul class="name">
+                <h1>Justin Goyena</h1>
+            </ul>
+            <ul class="nav">
+                <ol></ol>
+                <li><a href="index.html">About me</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+            </ul>
+        </nav>
+        <hr>
     </header>
-<br>
 
-<h1>Contact</h1>
+<div class="main">
 
-<br>
+    <h1>Contact Form</h1>
+    <hr>
 
-<hr>
-
-<br>
+        <div class="container1">
+          <form action="/action_page.php">
+            <label for="fname">Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="John Smith">
+        
+            <label for="lname">Email</label>
+            <input type="text" id="lname" name="lastname" placeholder="example@gmail.com">
+        
+            <label for="subject">Message</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+</div>
 
 </body>
 
-<div class="footer">
-        <p>Footer</p>
-      </div>
+    <div class="footer">
+        <p id="copyright">copyright</p>
+    </div>
       
 </html>
